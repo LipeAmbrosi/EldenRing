@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Zain", sans-serif;
+}
+
+/*Barra de Navegação*/
+
+.cabecalho{
+    position: sticky;
+    top: 0px;
+    box-shadow: 0px 3px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+#menu{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background-color: #33312B;
+    width: 100%;
+    
+}
+
+#menu li{
+    margin: 0 10px;
+}
+
+#menu li a{
+    color:white;
+    padding: 30px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+
+#menu li a:hover{
+    background-color: black;
+    color: #FFBB00;
+}
+
+#logo {
+    position:absolute;
+    top:170px;
+    left: 100px;
+}
+
+
+
+/*Corpo do site*/
+
+body{
+    height: 100%;
+    background-color: #554D39;
+}
+
+#banner{
+    background-image: url(/EldenRing/Imagens/banner.jpg);
+    height: 1200px;
+    background-size: contain;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:10px;
+}
+
+#conteudo{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+#container p{
+    
+    margin: 0;
+    width: 1250px;
+    text-align: justify;
+    padding: 0% 10%;
+    font-size: 30px;
+    color: #D5A523;
+    font-weight: 600;
+
+    
+    
+}
+
+#container h1{
+
+    margin: 0;;
+    padding: 10% 10% 10px 9%;
+    color: #FFBB00;
+    font-weight: 900;
+
+}
+
+
+/*Rodapé do site*/
+
+
+footer{
+    background-color: #33312B;
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0px 0px 0px 3px rgba(0, 0, 0, 0.5);
+
+}
+
+#main-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+#sobre-mim{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#redes-sociais ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0px;
+    width: 100%;
+    
+}
+
+#redes-sociais .link{
+    padding-top: 3px;
+    padding-left: 2px
+}
+
+#redes-sociais a:hover{
+    color: #FFBB00;
+}
+
+#redes-sociais li{
+   padding: 3px;
+}
+
+#redes-sociais a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+/*Imagens*/
+
+#malenia{
+
+    max-width: 50%;
+    height: 750px;
+    padding-bottom: 100px;
+
+}
+
+
+
+
+
