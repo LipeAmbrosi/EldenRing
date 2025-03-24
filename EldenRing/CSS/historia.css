@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Zain", sans-serif;
+}
+
+/*Barra de Navegação*/
+
+.cabecalho{
+    position: sticky;
+    top: 0px;
+    box-shadow: 0px 3px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+#menu{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background-color: #33312B;
+    width: 100%;
+    
+}
+
+#menu li{
+    margin: 0 10px;
+}
+
+#menu li a{
+    color:white;
+    padding: 30px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+
+#menu li a:hover{
+    background-color: black;
+    color: #FFBB00;
+}
+
+/* Corpo do Site */
+
+body{
+    height: 100%;
+    background-color: #554D39;
+}
+
+#corpo-primeiro-bloco{
+    
+    padding-top: 100px;
+    display: flex;
+    gap: 30px;;
+}
+
+#corpo h1{
+    position: absolute;
+    padding: 50px 100px;
+    color: #FFBB00;
+    font-weight: 900;
+}
+
+#corpo-primeiro-bloco .texto{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    padding-left: 100px;
+
+}
+
+#corpo-primeiro-bloco .imagem{
+
+    padding-right: 100px;
+}
+
+div .texto p{
+
+    color: #D5A523;
+    font-size: 20px;
+    font-weight: 800w;
+    
+
+}
+
+
