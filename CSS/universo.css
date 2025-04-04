@@ -50,5 +50,157 @@
     font-weight: 700;
     font-family: "Poppins", sans-serif;
     color: #D5A523; 
+    align-items: center;
+    text-align: justify;
+    line-height: 1.8;
 
+}
+
+/*Formatação gerais da página*/
+
+#body {
+
+    display: flex;
+    flex-direction: column;
+    padding: 10px 200px;
+    background-color: #554D39;
+    height: 100%;
+}
+
+div img {
+
+    max-width: 900px;
+    height: auto;
+}
+
+div {
+
+    padding-top: 50px;
+
+}
+
+h1 {
+    font-weight: bolder;
+    letter-spacing: 1px;
+    color: #f3d688;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+/*Formatação do Bloco Limgrave*/
+
+
+#body-limgrave {
+
+    display: flex;
+    gap: 50px;
+    
+}
+
+
+/*Formatação bloco Liurnia*/
+
+#body-liurnia{
+
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 50px;
+}
+
+#body-liurnia p{
+
+    align-content: center;
+}
+
+/*Formatação bloco Caelid*/
+
+#body-caelid {
+
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+/*Formatação bloco Montanha dos gigantes*/
+
+#montanha-dos-gigantes {
+
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 50px;
+}
+
+#gigantes-imagem {
+
+    width: 600px;
+    height: 600px;
+}
+
+
+/*Formatação bloco altos plato*/
+
+#altos-plato {
+
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+#imagem-plato {
+    
+    width: 800px;
+    height: 410;
+}
+
+
+/*Rodapé*/
+
+footer{
+
+    background-color: #33312B;
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0px 0px 0px 3px rgba(0, 0, 0, 0.5);
+    padding-top: 0;
+
+}
+
+#main-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+#sobre-mim{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#redes-sociais ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0px;
+    width: 100%;
+    
+}
+
+#redes-sociais .link{
+    padding-top: 3px;
+    padding-left: 2px
+}
+
+#redes-sociais a:hover{
+    color: #FFBB00;
+}
+
+#redes-sociais li{
+   padding: 3px;
+}
+
+#redes-sociais a{
+    color: white;
+    text-decoration: none;
 }
