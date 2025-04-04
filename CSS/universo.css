@@ -42,3 +42,13 @@
     background-color: black;
     color: #FFBB00;
 }
+
+/* formatação dos paragrafos */
+
+.conteudo-escrito, p {
+
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    color: #D5A523; 
+
+}
