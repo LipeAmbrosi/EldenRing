@@ -43,7 +43,26 @@
     color: #FFBB00;
 }
 
-/* formatação dos paragrafos */
+/*Formatação do hiperlink personagens*/
+
+#personagens{
+
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    color: #f3d688; 
+    text-decoration: none;
+}
+
+#personagens:hover{
+
+    color: white;
+    text-decoration: underline;
+}
+
+
+
+
+/*Formatação gerais da página*/
 
 .conteudo-escrito, p {
 
@@ -56,8 +75,6 @@
 
 }
 
-/*Formatação gerais da página*/
-
 #body {
 
     display: flex;
@@ -67,13 +84,15 @@
     height: 100%;
 }
 
-div img {
+#body img {
 
     max-width: 900px;
     height: auto;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.8);
+
 }
 
-div {
+#body div {
 
     padding-top: 50px;
 
@@ -144,6 +163,7 @@ h1 {
     display: flex;
     flex-direction: row;
     gap: 50px;
+    padding-bottom: 100px;
 }
 
 #imagem-plato {
