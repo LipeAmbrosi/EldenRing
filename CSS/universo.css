@@ -60,8 +60,6 @@
 }
 
 
-
-
 /*Formatação gerais da página*/
 
 .conteudo-escrito, p {
@@ -220,7 +218,9 @@ footer{
    padding: 3px;
 }
 
-#redes-sociais a{
+.link {
     color: white;
     text-decoration: none;
+    font-weight: normal;
+    font-size: 12px;
 }

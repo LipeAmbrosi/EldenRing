@@ -11,7 +11,7 @@
 
 /*Barra de Navegação*/
 
-.cabecalho{
+#cabecalho{
     position: sticky;
     top: 0px;
     box-shadow: 0px 3px rgba(0, 0, 0, 0.5);
@@ -31,6 +31,7 @@
 }
 
 #menu li a{
+
     color:white;
     padding: 30px;
     text-decoration: none;
@@ -44,81 +45,83 @@
 }
 
 
-/*Corpo do site*/
+/*Formatação gerais da página*/
 
-#logo {
-    position:absolute;
-    top:170px;
-    left: 100px;
+.conteudo-escrito, p {
+
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    color: #D5A523; 
+    align-items: center;
+    text-align: justify;
+    line-height: 1.8;
+
 }
 
-body{
-    height: 100%;
-    background-color: #554D39;
-}
+body {
 
-#banner{
-    background-image: url(/Imagens/Plano_de_fundo/banner.png);
-    height: 1200px;
-    background-size: contain;
-    background-size: cover;
-    background-position: center;
-    box-shadow: 0px 5px rgba(0, 0, 0, 0.8);
-}
-
-#container{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    gap:10px;
+    background-color: #554D39;
+    height: 100%;
 }
 
-#conteudo{
+#body img {
+
+    max-width: 600px;
+    height: auto;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.8);
+
+}
+
+#body{
+
+    padding: 100px 300px;
     display: flex;
-    align-items: flex-start;
-    gap: 10px;
+    flex-direction: column;
 }
 
-#container p{
-    
-    margin: 0;
-    width: 1250px;
-    text-align: justify;
-    padding: 0% 10%;
-    font-size: 20px;
+.personagens{
+
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 50px;
+    padding-bottom: 50px;
+} 
+
+h2 {
+
+    color: #f3d688;
+    padding: 20px 0px 10px 0px;
+
+}
+
+h1 {
+    color: #f3d688;
+    padding: 20px 0px 10px 0px;
+}
+
+.Texto p, li {
+
     color: #D5A523;
     font-weight: 700;
-    font-family: "Poppins", sans-serif;   
-
-    
-    
 }
 
-#container h1{
+.lista li{
 
-    margin: 0;
-    padding: 10% 10% 10px 9%;
-    color: #f3d688;
-    font-weight: 800;
-    font-size: 30px;
-
-}
-
-#imagem-1{
-    padding-right: 5%;
-    padding-bottom: 10%;
-    height: 800px;
+    font-size: 20px;
 }
 
 
-/*Rodapé do site*/
-
+/*Rodapé*/
 
 footer{
+
     background-color: #33312B;
     width: 100%;
     padding: 20px;
     box-shadow: 0px 0px 0px 3px rgba(0, 0, 0, 0.5);
+    padding-top: 0;
 
 }
 
@@ -157,22 +160,14 @@ footer{
    padding: 3px;
 }
 
-#redes-sociais a{
+.link {
     color: white;
     text-decoration: none;
+    font-weight: normal;
+    font-size: 12px;
 }
 
-/*Imagens*/
-
-#malenia{
-
-    max-width: 100%;
-    height: 100%;
-    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.8);
-
+#Felipe {
+    
+    color: white;
 }
-
-
-
-
-
